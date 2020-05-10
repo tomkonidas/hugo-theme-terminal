@@ -1,6 +1,6 @@
 +++
 title = ""
-date = ""
+date = "{{ .Date }}"
 author = "Tom Konidas"
 authorTwitter = "tomkonidas" #do not include @
 cover = ""
