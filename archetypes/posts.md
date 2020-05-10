@@ -1,8 +1,8 @@
 +++
 title = ""
-date = ""
-author = ""
-authorTwitter = "" #do not include @
+date = "{{ .Date }}"
+author = "Tom Konidas"
+authorTwitter = "tomkonidas" #do not include @
 cover = ""
 tags = ["", ""]
 keywords = ["", ""]
