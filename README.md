@@ -174,6 +174,16 @@ $ npm i yarn
 $ yarn
 ```
 
+## Notes on deploying to Netlify
+
+When deploying to Netlify you may run into HUGO version issues.
+If you do, create a file `netlify.toml` in your root folder with a HUGO version greater then or equal to the minimum required version for this theme.
+
+```toml
+[context.production.environment]
+  HUGO_VERSION = "0.70.0"
+```
+
 ## How to contribute
 
 If you spot any bugs, please use [Issue Tracker](https://github.com/panr/hugo-theme-terminal/issues) or if you want to add a new feature directly please create a new [Pull Request](https://github.com/panr/hugo-theme-terminal/pulls).
